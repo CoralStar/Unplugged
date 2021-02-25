@@ -380,19 +380,20 @@ aside {
 
   header {
     justify-content: space-around;
+    padding: 33px 0;
   }
 
   header .content-wrapper {
-      width: 55%;
+      width: 100%
       justify-content: space-between;
   }
 
   header nav {
-      width: 33%;
+      width: 20%;
   }
 
   header nav ul {
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .header-divider {
@@ -405,13 +406,13 @@ aside {
   aside .content-wrapper {
       margin: 50px 0;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       flex-flow: row wrap;
   }
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-      width: 55%;
+      width: 40%;
       margin: 0;
   }
 
@@ -419,35 +420,36 @@ aside {
 
   .features article {
     display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    flex-basis: 25%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%;
   }
 
   .features .features-item-description {
-      width: 75%;
+      width: 50%;
   }
 
   /* Reviews */
   .reviews article {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .reviews article div {
-      width: 55%;
+      width: 49%;
   }
 
   /* Footer */
   footer .content-wrapper {
-      width: 75%;
+      width: 65%;
       margin: 100px 0;
   }
 
   .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
   }
 
   footer .contact {
@@ -455,7 +457,7 @@ aside {
   }
 
   footer .copyright {
-      width:
+      width: 100%;
   }
 
 /* ==========================================================================
@@ -463,23 +465,24 @@ aside {
    ========================================================================== */
 
    .mission-content {
-        display:
+        display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 20px;
     }
 
     .mission-content p {
-        width: 40%;
+        width: 45%;
     }
 
     .contact-section .content-wrapper h2 {
-        width: 40%;
+        width: 80%;
     }
 
     .contact-content {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
 }
 
 /* ==========================================================================
