@@ -504,6 +504,53 @@ aside {
 
 @media only screen and (min-width: 1200px) {
   /* Desktop Styles here */
+  .content-wrapper {
+    width: 960px;
+  }
+
+  /*Hero*/
+  .hero-area h1 {
+    width: 60%;
+  }
+
+  /*Aside*/
+  aside .content-wrapper {
+    justify-content: space-between;
+  }
+
+  aside .content-wrapper, .form-description,
+  aside .content-wrapper, .form {
+    width: 32%;
+  }
+
+  /*Features*/
+  .features h2 {
+    width: 92%;
+  }
+
+  .features article {
+    flex-basis: 85%;
+  }
+
+  /*Review*/
+  .review article div {
+    width: 15%;
+  }
+
+  /* ==========================================================================
+   About Page
+   ========================================================================== */
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+        width: 100%;
+    }
+
+    /* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+    .faq h2 {
+        width: 100%;
+    }
 
 }
 
