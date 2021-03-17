@@ -513,6 +513,10 @@ input[type=button] {
       justify-content: space-between;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   header nav {
       width: 20%;
   }
@@ -629,6 +633,11 @@ input[type=button] {
 
 @media only screen and (min-width: 1200px) {
   /* Desktop Styles here */
+
+  header {
+    padding: 15px 0;
+  }
+
   .content-wrapper {
     width: 960px;
   }
